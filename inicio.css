@@ -1,0 +1,154 @@
+*/* Reset de estilos padrão para garantir uma base consistente */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+
+  /*estilo imagem*/
+  #img{
+    width: 20%;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Estilo para o corpo da página */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Estilo para o cabeçalho (header) */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  /* Estilo para a barra de navegação */
+  nav{
+    text-align: center;
+    
+  }
+  nav ul {
+    list-style-type: none;
+    display: inline-block;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  nav a:hover{
+    background-color: #555; /* Cor de fundo ao passar o mouse */
+
+  }
+  
+  /* Estilo para o conteúdo principal (main) */
+  main {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+   background-color: rgb(137, 143, 141);
+  }
+
+  section{
+    flex: 1;/* Permite que os filhos ocupem o espaço disponível */
+    margin-right: 20px;/* Margem entre os blocos */
+  }
+  
+  /* Estilo para os títulos */
+  h1 {
+    color: #333;
+    font-size: 2em; /* Ajuste o tamanho da fonte conforme necessário */
+    font-weight: bold; /* Peso da fonte em negrito */
+    color: #333; /* Cor do texto, ajuste conforme necessário */
+  }
+  
+  h2 {
+    color: #555;
+    font-size: 1.5em; /* Ajuste o tamanho da fonte conforme necessário */
+  font-weight: bold; /* Peso da fonte em negrito */
+  color: #222121; /* Cor do texto, ajuste conforme necessário */
+  }
+  
+  /* Estilo para os parágrafos */
+  p {
+    margin-bottom: 20px;
+    background-color: #555;
+    border-radius: 10px;
+    color: #fff;
+  }
+  
+  /* Estilo para o link "Saiba mais" */
+  a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #367791;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    
+  }
+  
+  
+  /* Estilo para a imagem principal */
+  .img img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  /* Estilo para o rodapé (footer) */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  /* Estilo para as redes sociais no rodapé */
+  footer ul {
+    list-style-type: none;
+  }
+  
+  footer ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  footer a img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  /*css para pagina contato*/
+  #bloco{
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  #btEnviar{
+    background-color: #367791;
+    color: #fff; /* Adiciona cor ao texto para garantir visibilidade */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave na mudança de cor de fundo */
+  }
+
+  #btEnviar:hover {
+    background-color: #1f4f6b; /* Cor de fundo ao passar o mouse sobre o botão */
+  }
+
